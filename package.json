@@ -1,0 +1,7 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "dependencies": {
+    "firebase": "^6.3.5"
+  }
+}
