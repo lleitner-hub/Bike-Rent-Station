@@ -49,3 +49,9 @@ background-size: cover;
   display: none;
   width: 100%;
 }
+
+@media screen and (max-width: 1400px) {
+  .main{
+    width: 80%
+  }
+}

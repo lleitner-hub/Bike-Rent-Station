@@ -146,6 +146,11 @@
       color: #007bff;
   }
   
+  .backButton{
+    color: #fff;
+    background-color: rgba(	91, 192, 222) !important;
+    border-color: rgba(	91, 192, 222) !important;
+}
 
 
   /* ==========================================================================
@@ -237,9 +242,12 @@
      Modify as content requires.
      ========================================================================== */
 
-  @media only screen and (max-width: 80em) {
-
-  }
+  
+     @media screen and (max-width: 1400px) {
+      .main{
+        width: 80%
+      }
+    }
 
 
   @media print,
@@ -314,4 +322,3 @@
       page-break-after: avoid;
     }
   }
-

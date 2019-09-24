@@ -1,5 +1,3 @@
-
-
 new Vue({
   el: '#loginForm',
   data: {
@@ -22,6 +20,12 @@ new Vue({
         errorMsg.innerText = "Error Message: "+ error.message;
       })
       loadingCircle.classList.add('d-none');
+    },
+    enterClicked(){
+    	alert("Enter clicked")
+    },
+    trigger () {
+    	this.$refs.sendReply.click()
     }
   }
 });

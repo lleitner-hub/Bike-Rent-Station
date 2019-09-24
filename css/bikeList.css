@@ -306,6 +306,9 @@
      ========================================================================== */
 
   @media only screen and (max-width: 110em) {
+  .main{
+    width: 80%
+  }
   .listContentHeight button{
     margin: auto !important; 
   }
@@ -313,7 +316,11 @@
     height: auto !important; 
   }
   }
-
+  @media screen and (max-width: 992px) {
+    .main{
+      width: 90%
+    }
+  }
 
   @media print,
     (-webkit-min-device-pixel-ratio: 1.25),
